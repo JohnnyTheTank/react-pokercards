@@ -74,7 +74,7 @@ const PokerCard = (props: Props) => {
           style={props.style}/>;
   };
 
-  return isBackwards ? <BackImage/> : suit && point ? <FaceImage/> : null;
+  return isBackwards ? <BackImage /> : suit && point ? <FaceImage/> : null;
 };
 
 PokerCard.defaultProps = {
